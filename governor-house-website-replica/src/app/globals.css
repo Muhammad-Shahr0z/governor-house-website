@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+
+.text-shadow-white-blur {
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+body{
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+@media (max-width:767px) {
+  .bg-house {
+    position: relative; 
+    height: fit-content; 
+    display: block;
+    overflow: hidden;
+  }
+  
+  .bg-house::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/bg_house.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4; 
+    z-index: 1;
+  }
+  
+  .bg-house > div {
+    position: relative;
+    z-index: 2;
+  }
+  .kamran-image{
+    min-width: 900px;
+    position: relative;
+  }
+  
+}
+
+@media (max-width:450px) {
+
+  .kamran-image{
+    right: 180px;
+    position: relative;
+  }
+}
+
+
+
+
+
+@media (min-width:768px){
+
+  main{
+    background: url(/images/bg_house2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    overflow: hidden;
+    max-width: 1500px;
+  }
+  
+}
+
