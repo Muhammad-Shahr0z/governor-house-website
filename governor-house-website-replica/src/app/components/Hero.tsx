@@ -52,7 +52,7 @@ const Hero = () => {
     <Image
       src={KamranSir}
       alt="KamranSir"
-     className="kamran-image lg:w-[800px] md:right-150 md:relative"
+     className="kamran-image lg:w-[800px] md:relative"
   />
   </div>
 </div> 
