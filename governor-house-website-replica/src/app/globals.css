@@ -17,6 +17,7 @@ body{
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto; 
+  caret-color: transparent;
 }
 
 
